@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dynamic Text</title>
+</head>
+<body>
+  <p id="myParagraph">
+
+14th August is more than just a date on the calendar; it is a day that resonates with the hopes, dreams, and aspirations of millions of Pakistanis. As the nation celebrates another year of independence, it is a moment to honor the sacrifices of the past, cherish the freedom of the present, and strive for a brighter future. The journey of Pakistan, like that of any nation, is ongoing, and each generation has a role to play in shaping its destiny. May the spirit of 14th August continue to inspire and guide Pakistan towards greater heights..</p>
+  <button id="myButton">Click me!</button>
+
+  <script>
+    // Select the paragraph element
+    let paragraph = document.getElementById("myParagraph");
+
+    // Select the button element
+    let button = document.getElementById("myButton");
+
+    // Add an event listener to the button
+    button.addEventListener("click", function() {
+      // Change the text of the paragraph when clicked
+      paragraph.textContent = "14th August marks Pakistan's Independence Day, a celebration of the nation's freedom achieved in 1947 after a long struggle led by Muhammad Ali Jinnah and the All-India Muslim League. The day honors the sacrifices made for a separate homeland where Muslims could live according to their values. Celebrated with patriotic fervor, it features flag-raising ceremonies, parades, and cultural events across the country. Beyond festivities, it is a time for reflection on the principles of unity, faith, and discipline, and a reminder of the collective responsibility to work towards a prosperous and peaceful future for Pakistan.";
+    });
+  </script>
+</body>
+</html>
